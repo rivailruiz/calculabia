@@ -1,5 +1,14 @@
+body {
+ background: url('https://img.elo7.com.br/product/zoom/1103118/papel-de-parede-flores-simples-papel-de-parede-com-desenho-de-pastilhas.jpg'); 
+}
+
 input,
 label,
 strong{
   display: block
+}
+
+
+.container {
+  margin-top: 200px;
 }

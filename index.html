@@ -13,20 +13,30 @@
 </head>
 
 <body>
-  <h2>Calculadora da bia</h2>
+  
+  <div class="container">
+    <div class="panel panel-default">
+    <h2>Calculadora da bia</h2>
+     <div class="panel-body">
+        <div class="form-group">
+          <label for="val1">Digite o valor1</label>
+          <input type="text" class="form-control" id="val1"/>
 
-<label for="val1">Digite o valor1</label>
-<input type="text" id="val1"/>
+          <label for="val1">Digite o valor2</label>
+          <input type="text" class="form-control" id="val2"/>
 
-<label for="val1">Digite o valor2</label>
-<input type="text" id="val2"/>
+          <label for="val1">Digite o valor3</label>
+          <input type="text" class="form-control" id="val3"/>
+              <br>
+          <button class="btn btn-success" id="calcular">Calcular</button>
+          <br> <br>
+          <strong>Resultado: <span></span></strong>
+        </div>
+    </div>
+  </div>
+  </div>
+  
 
-<label for="val1">Digite o valor3</label>
-<input type="text" id="val3"/>
-
-<button id="calcular">Calcular!!</button>
-<br /><br /><br />
-<strong>resposta: <span></span></strong>
   <script src='https://code.jquery.com/jquery-3.2.1.min.js'></script>
 <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script>
 
