@@ -1,9 +1,9 @@
 
 
 $('#calcular').click(function(){
-  var val1 = parseInt($("#val1").val());
-  var val2 = parseInt($("#val2").val());
-  var val3 = parseInt($("#val3").val());
+  var val1 = parseFloat($("#val1").val());
+  var val2 = parseFloat($("#val2").val());
+  var val3 = parseFloat($("#val3").val());
   
   
   
